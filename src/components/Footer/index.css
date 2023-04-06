@@ -1,0 +1,55 @@
+@media screen and (min-width: 768px) {
+  .footer {
+    background-color: #12110e;
+    margin-top: 1500px;
+    width: 100%;
+    background-size: cover;
+  }
+
+  .footer-para {
+    font-family: 'Georgia';
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .footer-para1 {
+    font-family: 'Georgia';
+    font-size: 15px;
+    color: #ffffff;
+  }
+
+  .footer-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .footer {
+    background-color: #12110e;
+    margin-top: 500px;
+  }
+
+  .footer-para {
+    font-family: 'Georgia';
+    font-size: 14px;
+    color: #ffffff;
+    text-align: center;
+  }
+
+  .footer-para1 {
+    font-family: 'Georgia';
+    font-size: 5px;
+    color: #ffffff;
+  }
+
+  .footer-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 12px;
+  }
+}

@@ -1,0 +1,21 @@
+.para-cata {
+  font-family: 'Georgia';
+  font-style: oblique;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 15px;
+}
+
+.para1_off {
+  font-family: 'Georgia';
+  font-style: oblique;
+  font-size: 15px;
+  padding: 15px;
+}
+.cata-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 100px;
+}

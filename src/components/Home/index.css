@@ -1,0 +1,439 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+@media screen and (min-width: 768px) {
+  .canIm {
+    height: 100vh;
+  }
+
+  .whole-con1 {
+    display: none;
+  }
+
+  .con-div1 {
+    display: none;
+  }
+  .con-para1 {
+    display: none;
+  }
+
+  .convi1 {
+    display: none;
+  }
+  .image2 {
+    display: none;
+  }
+
+  .bg-can {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .home {
+    background-image: url('https://res.cloudinary.com/dbpsrpa2n/image/upload/v1680516501/094e1b27-b856-4a80-9be1-f422e4896a9f_v0wjd5.jpg');
+    background-size: cover;
+    background-color: grey;
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    padding-bottom: 40px;
+  }
+
+  .home {
+    background-image: url('https://res.cloudinary.com/dbpsrpa2n/image/upload/v1680516501/094e1b27-b856-4a80-9be1-f422e4896a9f_v0wjd5.jpg');
+    background-size: cover;
+  }
+
+  .nav {
+    height: 100px;
+    background-color: black;
+    opacity: 0.5;
+    padding-top: 12px;
+    padding-right: 12px;
+  }
+
+  .head {
+    font-size: 22px;
+    font-family: 'Roboto';
+    color: #ffffff;
+    padding-right: 50px;
+  }
+
+  .div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .divOff {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .headOne {
+    font-size: 25px;
+    font-family: 'Roboto';
+    color: #ffffff;
+    text-align: center;
+    font-weight: 500;
+    padding-right: 60px;
+    padding-bottom: 10px;
+    text-decoration: none;
+  }
+
+  .heading {
+    font-size: 40px;
+    font-family: 'Roboto';
+    color: #ffffff;
+  }
+
+  .paraOffer {
+    font-size: 25px;
+    font-family: 'Roboto';
+    color: #ffffff;
+    margin-top: 0px;
+  }
+
+  .contactButton {
+    border: 3px white solid;
+    background-color: transparent;
+    color: #ffffff;
+    height: 40px;
+    width: 120px;
+    padding: 5px;
+    font-size: 15px;
+    font-family: 'Roboto';
+    border-radius: 18px;
+    margin-top: 20px;
+  }
+
+  .contact {
+    display: flex;
+    flex-direction: column;
+    padding-top: 120px;
+    padding-left: 100px;
+  }
+
+  .about {
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Roboto';
+    color: black;
+    padding: 20px;
+    font-weight: 500;
+  }
+
+  .convi {
+    font-family: 'Georgia';
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .con-para {
+    font-family: 'Old Standard TT';
+    font-style: oblique;
+    font-size: 18px;
+    text-align: center;
+    color: black;
+  }
+
+  .image1 {
+    height: 280px;
+    width: 420px;
+  }
+
+  .whole-con {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 30px;
+  }
+
+  .con-div {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    padding: 40px;
+  }
+
+  .image-con {
+    background-image: url('https://www.jotform.com/blog/wp-content/uploads/2020/05/working-from-home-vs-office-1361x500.jpg');
+
+    margin-top: 30px;
+  }
+
+  .image-head {
+    font-family: 'Roboto';
+    font-size: 40px;
+    text-align: center;
+    padding-top: 50px;
+    color: #ffffff;
+  }
+
+  .image-div {
+    display: flex;
+    justify-content: center;
+  }
+
+  .image-para {
+    font-family: 'Times New Roman';
+    font-size: 20px;
+    color: #ffffff;
+    background-color: black;
+    opacity: 0.5;
+    width: 300px;
+    height: 40px;
+    text-align: center;
+    padding: 8px;
+  }
+  .blog {
+    padding: 20px;
+    font-size: 25px;
+    font-family: 'Roboto';
+    text-align: center;
+    font-style: oblique;
+    font-weight: 500;
+  }
+  .blog-name {
+    font-family: 'Georgia';
+    font-size: 20px;
+    color: black;
+    text-align: center;
+  }
+  .hamburger-btn {
+    display: none;
+  }
+  .modal-container {
+    display: none;
+  }
+
+  .nav-link-container {
+    display: none;
+  }
+
+  .close-btn {
+    display: none;
+  }
+  .nav-link {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .canIm {
+    height: 100vh;
+  }
+  .contact {
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+    padding-left: 40px;
+    padding-bottom: 12px;
+  }
+
+  .bg-can {
+    display: flex;
+    flex-direction: column;
+  }
+  .heading {
+    font-size: 15px;
+    color: #ffffff;
+    padding-left: 12px;
+    font-weight: 500;
+  }
+  .about {
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Roboto';
+    color: black;
+    padding: 20px;
+    font-weight: 500;
+  }
+
+  .paraOffer {
+    padding-left: 12px;
+    font-size: 12px;
+    font-family: 'Roboto';
+    color: #ffffff;
+    margin-top: 0px;
+  }
+
+  .whole-con {
+    display: none;
+  }
+
+  .con-div {
+    display: none;
+  }
+  .con-para {
+    display: none;
+  }
+
+  .convi {
+    display: none;
+  }
+
+  .whole-con1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 30px;
+  }
+
+  .con-para1 {
+    font-family: 'Old Standard TT';
+    font-style: oblique;
+    font-size: 12px;
+    text-align: center;
+    color: black;
+  }
+
+  .convi1 {
+    font-family: 'Georgia';
+    font-size: 15px;
+    text-align: center;
+  }
+
+  .image2 {
+    width: 55%;
+    margin: 20px;
+  }
+
+  .home {
+    background-image: url('https://res.cloudinary.com/dbpsrpa2n/image/upload/v1680516501/094e1b27-b856-4a80-9be1-f422e4896a9f_v0wjd5.jpg');
+    background-size: cover;
+    background-color: grey;
+  }
+
+  .image {
+    height: 100px;
+    width: 100px;
+  }
+
+  .nav {
+    height: 100px;
+    background-color: black;
+    opacity: 0.5;
+    padding-top: 1px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .contactButton {
+    border: 3px white solid;
+    background-color: transparent;
+    color: #ffffff;
+    height: 30px;
+    width: 90px;
+    padding: 5px;
+    font-size: 10px;
+    font-family: 'Roboto';
+    border-radius: 15px;
+    margin-top: 15px;
+    margin-left: 18px;
+    margin-bottom: 15px;
+  }
+
+  .image-con {
+    background-image: url('https://www.jotform.com/blog/wp-content/uploads/2020/05/working-from-home-vs-office-1361x500.jpg');
+
+    margin-top: 30px;
+  }
+
+  .image-head {
+    font-family: 'Roboto';
+    font-size: 40px;
+    text-align: center;
+    padding-top: 50px;
+    color: #ffffff;
+  }
+
+  .image-div {
+    display: flex;
+    justify-content: center;
+  }
+
+  .image-para {
+    font-family: 'Times New Roman';
+    font-size: 20px;
+    color: #ffffff;
+    background-color: black;
+    opacity: 0.5;
+    width: 300px;
+    height: 40px;
+    text-align: center;
+    padding: 8px;
+  }
+  .blog {
+    padding: 20px;
+    font-size: 25px;
+    font-family: 'Roboto';
+    text-align: center;
+    font-style: oblique;
+    font-weight: 500;
+  }
+  .blog-name {
+    font-family: 'Georgia';
+    font-size: 20px;
+    color: black;
+    text-align: center;
+  }
+
+  .head {
+    display: none;
+  }
+  .headOne {
+    font-size: 16px;
+    font-family: 'Roboto';
+    color: #ffffff;
+    text-align: center;
+    padding-right: 18px;
+    font-weight: 500;
+    text-decoration: none;
+  }
+  .hamburger-btn {
+    margin-left: 0px;
+    margin-right: 20%;
+  }
+  .modal-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 10px;
+    margin-top: 0px;
+    background: #e5e5e5;
+    height: 100vh;
+    width: 100vw;
+  }
+
+  .nav-link-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  .close-btn {
+    border: none;
+    background: none;
+  }
+  .nav-link {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-family: 'Georgia';
+  }
+}
