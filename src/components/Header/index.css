@@ -106,5 +106,7 @@
     color: black;
     font-weight: 500;
     font-family: 'Georgia';
+    cursor: pointer;
+    outline: none;
   }
 }

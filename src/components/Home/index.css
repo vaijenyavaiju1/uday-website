@@ -15,6 +15,11 @@ body {
     height: 100vh;
   }
 
+  .linkOff {
+    cursor: pointer;
+    outline: none;
+  }
+
   .whole-con1 {
     display: none;
   }
@@ -435,5 +440,9 @@ body {
     color: black;
     font-weight: 500;
     font-family: 'Georgia';
+  }
+  .linkOff {
+    cursor: pointer;
+    outline: none;
   }
 }

@@ -77,9 +77,11 @@ class Home extends Component {
               <p className="paraOffer">
                 Offering in -depth training for your team!{' '}
               </p>{' '}
-              <button type="button" className="contactButton">
-                Contact us{' '}
-              </button>{' '}
+              <Link className="linkOff" to="/contactUs">
+                <button type="button" className="contactButton">
+                  Contact us{' '}
+                </button>{' '}
+              </Link>
             </div>{' '}
           </div>{' '}
           <div>
